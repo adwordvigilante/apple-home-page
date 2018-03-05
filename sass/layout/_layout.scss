@@ -94,11 +94,15 @@
     grid-gap: 1.7rem;
     padding: 1.7rem;
 
+    p {
+        font-size: 2rem; 
+    }
+
     &--1 {
         display: flex; 
         flex-direction: column; 
         align-items: center; 
-        padding: 2rem; 
+        padding: 4rem; 
         background-color: #FAFAFA; 
 
         figure {
@@ -118,14 +122,12 @@
         flex-direction: column; 
         align-items: center; 
         justify-content: center; 
-        padding: 2rem; 
+        padding: 4rem; 
         background-color: #FAFAFA; 
 
 
 
-        p {
-            font-size: 2rem; 
-        }
+
         figure {
             background-image: url(https://images.apple.com/v/home/dn/images/promos/watch_series_3_large.jpg);
             background-repeat: no-repeat;
@@ -153,6 +155,66 @@
         line-height: 1.6; 
     }
 
+
+    &--3 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        background: linear-gradient(to bottom right, #202020, #202020);
+        color: #fff; 
+        padding: 4rem; 
+
+
+        img {
+            width: 100%; 
+        }
+    }
+
+    &--4 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        background: linear-gradient(to bottom right, #202020, #202020);
+        color: #fff; 
+        padding: 4rem; 
+
+
+        img {
+            width: 100%; 
+        }
+    }
+
+    &--5 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        background: linear-gradient(to bottom right, #202020, #202020);
+        color: #fff; 
+        padding: 4rem; 
+
+
+        img {
+            width: 100%; 
+        }
+    }
+
+    &--6 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        background: linear-gradient(to bottom right, #202020, #202020);
+        color: #fff; 
+        padding: 4rem; 
+
+
+        img {
+            width: 100%; 
+        }
+    }
 
 
 }

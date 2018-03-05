@@ -96,11 +96,13 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
   grid-gap: 1.7rem;
   padding: 1.7rem; }
+  .apple-products p {
+    font-size: 2rem; }
   .apple-products--1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     background-color: #FAFAFA; }
     .apple-products--1 figure {
       background-image: url(https://images.apple.com/v/home/dn/images/promos/homepod_large.jpg);
@@ -115,10 +117,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 4rem;
     background-color: #FAFAFA; }
-    .apple-products--2 p {
-      font-size: 2rem; }
     .apple-products--2 figure {
       background-image: url(https://images.apple.com/v/home/dn/images/promos/watch_series_3_large.jpg);
       background-repeat: no-repeat;
@@ -136,6 +136,46 @@ body {
   .apple-products span {
     text-align: center;
     line-height: 1.6; }
+  .apple-products--3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #202020, #202020);
+    color: #fff;
+    padding: 4rem; }
+    .apple-products--3 img {
+      width: 100%; }
+  .apple-products--4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #202020, #202020);
+    color: #fff;
+    padding: 4rem; }
+    .apple-products--4 img {
+      width: 100%; }
+  .apple-products--5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #202020, #202020);
+    color: #fff;
+    padding: 4rem; }
+    .apple-products--5 img {
+      width: 100%; }
+  .apple-products--6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #202020, #202020);
+    color: #fff;
+    padding: 4rem; }
+    .apple-products--6 img {
+      width: 100%; }
 
 .text-wrap {
   text-align: center; }
