@@ -1,0 +1,141 @@
+*,
+*::after,
+*a::before {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+body {
+  box-sizing: border-box; }
+
+.main-content {
+  display: grid; }
+
+.header {
+  background-color: #323232;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1 100%;
+  flex-wrap: wrap;
+  position: relative;
+  height: 4.5rem;
+  max-height: 4.5rem; }
+  .header-menu__list-item img {
+    position: absolute;
+    left: -4rem;
+    transform: translate(-50%, -60%); }
+  .header-menu__list li {
+    display: inline-block;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px; }
+    .header-menu__list li a {
+      padding: 1.2rem 3.8rem;
+      text-decoration: none;
+      display: flex; }
+      .header-menu__list li a:link, .header-menu__list li a:visited {
+        color: #fff; }
+      .header-menu__list li a:hover, .header-menu__list li a:active {
+        color: #6b6b6b;
+        transition: all .2s; }
+
+.iphone {
+  display: grid;
+  grid-template-areas: "iphone--1" "iphone--2";
+  grid-template-rows: repeat(auto-fit, minmax(60rem, 1fr));
+  grid-gap: 1.5rem; }
+  .iphone--1 {
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 9rem;
+    line-height: 1.2;
+    min-height: 40rem; }
+    .iphone--1 h2, .iphone--1 h3 {
+      font-family: 'Roboto', sans-serif; }
+    .iphone--1 h2 {
+      font-size: 5rem;
+      font-weight: 700;
+      letter-spacing: .2px; }
+    .iphone--1 h3 {
+      font-size: 2.5rem; }
+  .iphone--2 {
+    background: #FAEFEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4.5rem;
+    line-height: 1.2;
+    min-height: 40rem; }
+    .iphone--2 h2, .iphone--2 h3 {
+      font-family: 'Roboto', sans-serif; }
+    .iphone--2 h2 {
+      font-size: 5rem;
+      font-weight: 700;
+      letter-spacing: .2px; }
+    .iphone--2 h3 {
+      font-size: 2.5rem; }
+  .iphone-image--1 {
+    position: relative;
+    top: 8.5rem; }
+    .iphone-image--1 img {
+      display: block;
+      width: 100%; }
+  .iphone-image--2 img {
+    display: block;
+    width: 100%; }
+
+.apple-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  grid-gap: 1.7rem;
+  padding: 1.7rem; }
+  .apple-products--1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #FAFAFA; }
+    .apple-products--1 figure {
+      background-image: url(https://images.apple.com/v/home/dn/images/promos/homepod_large.jpg);
+      background-repeat: no-repeat;
+      background-size: 418px 426px;
+      width: 418px;
+      height: 426px;
+      background-position-y: center;
+      padding-top: 4rem; }
+  .apple-products--2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #FAFAFA; }
+    .apple-products--2 p {
+      font-size: 2rem; }
+    .apple-products--2 figure {
+      background-image: url(https://images.apple.com/v/home/dn/images/promos/watch_series_3_large.jpg);
+      background-repeat: no-repeat;
+      background-size: 418px 426px;
+      width: 418px;
+      height: 426px;
+      background-position-y: center;
+      padding-top: 4rem; }
+  .apple-products h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: .2px; }
+  .apple-products h3 {
+    font-size: 2.5rem; }
+  .apple-products span {
+    text-align: center;
+    line-height: 1.6; }
+
+.text-wrap {
+  text-align: center; }

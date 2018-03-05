@@ -1,0 +1,162 @@
+.iphone {
+    display: grid;
+    grid-template-areas: "iphone--1"
+                        "iphone--2";
+    grid-template-rows: repeat(auto-fit, minmax(60rem, 1fr));
+    grid-gap: 1.5rem; 
+
+		&--1 {
+            background: #FAFAFA; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: flex-start; 
+            align-items: center; 
+            padding-top: 9rem; 
+            line-height: 1.2; 
+            min-height: 40rem; 
+    
+
+            h2, h3 {
+                font-family: 'Roboto', sans-serif;
+
+
+            }
+
+            h2 {
+                font-size: 5rem; 
+                font-weight: 700;
+                letter-spacing: .2px;
+            }
+
+            h3 {
+                font-size: 2.5rem; 
+            }
+
+        }
+
+
+		&--2 {
+            background: #FAEFEA; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: flex-start; 
+            align-items: center; 
+            padding-top: 4.5rem; 
+            line-height: 1.2; 
+            min-height: 40rem; 
+    
+
+            h2, h3 {
+                font-family: 'Roboto', sans-serif;
+
+
+            }
+
+            h2 {
+                font-size: 5rem; 
+                font-weight: 700;
+                letter-spacing: .2px;
+            }
+
+            h3 {
+                font-size: 2.5rem; 
+            }
+
+        }
+
+        
+        
+    &-image--1 {
+        position: relative;
+        top: 8.5rem;
+
+
+        img {
+            display: block; 
+            width: 100%; 
+        }
+    }
+
+    &-image--2 {
+
+        img {
+            display: block; 
+            width: 100%; 
+        }
+    }
+
+}
+
+
+.apple-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-gap: 1.7rem;
+    padding: 1.7rem;
+
+    &--1 {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        padding: 2rem; 
+        background-color: #FAFAFA; 
+
+        figure {
+            background-image: url(https://images.apple.com/v/home/dn/images/promos/homepod_large.jpg);
+            background-repeat: no-repeat;
+            background-size: 418px 426px;
+            width: 418px;
+            height: 426px;
+            background-position-y: center;
+            padding-top: 4rem;
+        }
+
+    }
+
+    &--2 {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        padding: 2rem; 
+        background-color: #FAFAFA; 
+
+
+
+        p {
+            font-size: 2rem; 
+        }
+        figure {
+            background-image: url(https://images.apple.com/v/home/dn/images/promos/watch_series_3_large.jpg);
+            background-repeat: no-repeat;
+            background-size: 418px 426px;
+            width: 418px;
+            height: 426px;
+            background-position-y: center;
+            padding-top: 4rem;
+        }
+    }
+
+    h2 {
+        font-size: 4rem; 
+        font-weight: 600;
+        letter-spacing: .2px;
+    }
+
+    h3 {
+        font-size: 2.5rem; 
+        
+    }
+
+    span {
+        text-align: center; 
+        line-height: 1.6; 
+    }
+
+
+
+}
+
+.text-wrap {
+    text-align: center; 
+}

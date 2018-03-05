@@ -1,0 +1,21 @@
+// ABSTRACTS
+
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables"; 
+@import "abstract/animations";
+
+// BASE
+
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";  
+
+// PAGES
+@import "pages/home"; 
+
+// LAYOUT 
+@import "layout/layout"; 
+
+// COMPONENTS 
