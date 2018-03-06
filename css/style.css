@@ -41,6 +41,8 @@ body {
       .header-menu__list li a:hover, .header-menu__list li a:active {
         color: #6b6b6b;
         transition: all .2s; }
+  .header .fa-search {
+    color: #fff; }
 
 .iphone {
   display: grid;
