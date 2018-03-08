@@ -182,3 +182,10 @@ body {
 
 .text-wrap {
   text-align: center; }
+
+footer {
+  background-color: #F2F2F2; }
+
+.footer-menus {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
